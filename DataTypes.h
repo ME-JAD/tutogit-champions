@@ -1,0 +1,8 @@
+//
+// Created by Bernettes Victor on 29/04/2024.
+//
+
+#ifndef TUTOGIT_CHAMPIONS_DATATYPES_H
+#define TUTOGIT_CHAMPIONS_DATATYPES_H
+
+#endif //TUTOGIT_CHAMPIONS_DATATYPES_H

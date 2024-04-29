@@ -3,4 +3,4 @@ project(tutogit C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(tutogit main.c)
+add_executable(tutogit main.c DataTypes.cpp DataTypes.h)
