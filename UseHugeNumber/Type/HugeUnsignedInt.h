@@ -1,8 +1,15 @@
-//
-// Created by Matis on 29/04/2024.
-//
+#ifndef HUGE_UNSIGNED_INT
+#define HUGE_UNSIGNED_INT
 
-#ifndef TUTOGIT_HUGEUNSIGNEDINT_H
-#define TUTOGIT_HUGEUNSIGNEDINT_H
+#include "../../DataTypes/DoublyLinkedList.h"
 
-#endif //TUTOGIT_HUGEUNSIGNEDINT_H
+typedef DoublyLinkedList HugeUnsignedInt;
+
+extern HugeUnsignedInt* createHugeUnsignedInt                    (void);
+extern HugeUnsignedInt* createHugeUnsignedIntFromString          (const char* digitString);
+extern HugeUnsignedInt* createHugeUnsignedIntFromHugeUnsignedInt (const HugeUnsignedInt* hugeUnsignedInt, const unsigned int size);
+extern void             deleteHugeUnsignedInt                    (HugeUnsignedInt* hugeUnsignedInt);
+extern int              getHugeUnsignedIntLength                 (const HugeUnsignedInt* hugeUnsignedInt);
+extern HugeUnsignedInt* simplifyHugeUnsignedInt                  (HugeUnsignedInt* hugeUnsignedInt);
+
+#endif // !HUGE_UNSIGNED_INT
