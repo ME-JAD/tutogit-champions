@@ -1,0 +1,8 @@
+//
+// Created by apoleon on 29/04/24.
+//
+
+#ifndef TUTOGIT_HUGEFLOATOPERATOR_H
+#define TUTOGIT_HUGEFLOATOPERATOR_H
+
+#endif //TUTOGIT_HUGEFLOATOPERATOR_H
