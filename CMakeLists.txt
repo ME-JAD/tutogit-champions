@@ -3,4 +3,10 @@ project(tutogit C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(tutogit main.c)
+add_executable(tutogit main.c
+        UseHugeNumber/Type/HugeFloat.c
+        UseHugeNumber/Type/HugeFloat.h
+        UseHugeNumber/Type/HugeInt.c
+        UseHugeNumber/Type/HugeInt.h
+        UseHugeNumber/Type/HugeUnsignedInt.c
+        UseHugeNumber/Type/HugeUnsignedInt.h)
