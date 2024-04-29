@@ -164,3 +164,4 @@ Digit getDigitByPlaceFromStart (const DoublyLinkedList* doublyLinkedList, unsign
     }
     return result;
 }
+//

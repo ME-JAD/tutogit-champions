@@ -27,3 +27,4 @@ extern void              removeEndFromDoublyLinkedList    (DoublyLinkedList* dou
 extern Digit             getDigitByPlaceFromStart         (const DoublyLinkedList* doublyLinkedList, const unsigned int place);
 
 #endif // !DOUBLY_LINKED_LIST
+//
