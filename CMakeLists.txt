@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD 11)
 
 
 
-add_executable(tutogit main.c ScanHugeNumber.c ScanHugeNumber.h ShowHugeNumber.c ShowHugeNumber.h
+add_executable(tutogit main.c IHMHugeNumber/ScanHugeNumber.c IHMHugeNumber/ScanHugeNumber.h IHMHugeNumber/ShowHugeNumber.c IHMHugeNumber/ShowHugeNumber.h
  UseHugeNumber/Operator/HugeFloatOperator.c
         UseHugeNumber/Operator/HugeFloatOperator.h
         UseHugeNumber/Operator/HugeIntOperator.c
