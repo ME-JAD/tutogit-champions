@@ -2,7 +2,16 @@
 // Created by paul- on 29/04/2024.
 //
 
-#ifndef TUTOGIT_CHAMPIONS_SHOWHUGENUMBER_H
-#define TUTOGIT_CHAMPIONS_SHOWHUGENUMBER_H
+#ifndef SHOW_HUGE_NUMBER
+#define SHOW_HUGE_NUMBER
 
-#endif //TUTOGIT_CHAMPIONS_SHOWHUGENUMBER_H
+#include "../UseHugeNumber/Type/HugeFloat.h"
+#include "../UseHugeNumber/Type/HugeInt.h"
+#include "../UseHugeNumber/Type/HugeUnsignedInt.h"
+
+extern void printHugeUnsignedInt (const HugeUnsignedInt* hugeUnsignedInt);
+extern void printHugeInt         (const HugeInt* hugeInt);
+extern void printHugeFloat       (const HugeFloat* hugeFloat);
+
+#endif // !SHOW_HUGE_NUMBER
+
